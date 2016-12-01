@@ -1,0 +1,203 @@
+{
+  "person": {
+    "id": "5c180767-8095-495e-928b-677895ba1cfc",
+    "name": {
+      "fullName": "Lachy Groom",
+      "givenName": "Lachy",
+      "familyName": "Groom"
+    },
+    "email": "lachy@stripe.com",
+    "gender": "male",
+    "location": "San Francisco, CA, US",
+    "timeZone": "America/Los_Angeles",
+    "utcOffset": -8,
+    "geo": {
+      "city": "San Francisco",
+      "state": "California",
+      "stateCode": "CA",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 37.7749295,
+      "lng": -122.4194155
+    },
+    "bio": "I work on International @stripe",
+    "site": "http://lachygroom.com",
+    "avatar": "https://d1ts43dypk8bqh.cloudfront.net/v1/avatars/5c180767-8095-495e-928b-677895ba1cfc",
+    "employment": {
+      "domain": "stripe.com",
+      "name": "Stripe",
+      "title": "Growth",
+      "role": "sales",
+      "seniority": null
+    },
+    "facebook": {
+      "handle": null
+    },
+    "github": {
+      "handle": null,
+      "id": null,
+      "avatar": null,
+      "company": null,
+      "blog": null,
+      "followers": null,
+      "following": null
+    },
+    "twitter": {
+      "handle": "lachygroom",
+      "id": 14647871,
+      "bio": "I work on International @stripe",
+      "followers": 2042,
+      "following": 320,
+      "statuses": 13119,
+      "favorites": 1170,
+      "location": "San Francisco",
+      "site": "http://lachygroom.com",
+      "avatar": "https://pbs.twimg.com/profile_images/2823877912/383da5c4764bfe64442738a03171eeaa.jpeg"
+    },
+    "linkedin": {
+      "handle": "in/lachy-groom-b218895"
+    },
+    "googleplus": {
+      "handle": null
+    },
+    "aboutme": {
+      "handle": null,
+      "bio": null,
+      "avatar": null
+    },
+    "gravatar": {
+      "handle": "lachy2012",
+      "urls": [
+
+      ],
+      "avatar": "http://1.gravatar.com/avatar/b683590be3a1236b315614d623349454",
+      "avatars": [
+        {
+          "url": "http://1.gravatar.com/avatar/b683590be3a1236b315614d623349454",
+          "type": "thumbnail"
+        }
+      ]
+    },
+    "fuzzy": true,
+    "emailProvider": false,
+    "indexedAt": "2016-11-18T04:40:53.819Z"
+  },
+  "company": {
+    "id": "54fa90d8-7ba7-4b6d-b5ec-82ee3e184166",
+    "name": "Stripe",
+    "legalName": "Stripe Inc",
+    "domain": "stripe.com",
+    "domainAliases": [
+      "stripe.io",
+      "stripe.co.nz",
+      "stripe.uk",
+      "stripe.ie",
+      "stripe.cm"
+    ],
+    "url": "https://stripe.com",
+    "site": {
+      "url": "http://stripe.com",
+      "title": "Stripe",
+      "h1": "Stripe",
+      "metaDescription": "Stripe is a suite of APIs that powers commerce for businesses of all sizes.",
+      "metaAuthor": null,
+      "phoneNumbers": [
+        "+1 415-697-2918",
+        "+1 800-451-5817"
+      ],
+      "emailAddresses": [
+        "dns@stripe.com",
+        "byot@stripe.com",
+        "krithika.muthukumar@stripe.com",
+        "ach@stripe.com",
+        "joe.cruttwell@stripe.com",
+        "michelle.bu@stripe.com",
+        "jack.flintermann@stripe.com",
+        "connect@stripe.com",
+        "subscriptions@stripe.com",
+        "relay@stripe.com",
+        "connect+pricing@stripe.com"
+      ]
+    },
+    "category": {
+      "sector": "Financials",
+      "industryGroup": "Diversified Financials",
+      "industry": "Diversified Financial Services",
+      "subIndustry": "Payments"
+    },
+    "tags": [
+      "SAAS",
+      "B2B",
+      "Payments",
+      "Finance",
+      "Software"
+    ],
+    "description": "Stripe is a suite of APIs that powers commerce for businesses of all sizes.",
+    "foundedYear": 2011,
+    "location": "3180 18th St #100, San Francisco, CA 94110, USA",
+    "timeZone": "America/Los_Angeles",
+    "utcOffset": -8,
+    "geo": {
+      "streetNumber": "3180",
+      "streetName": "18th Street",
+      "subPremise": "100",
+      "city": "San Francisco",
+      "postalCode": "94110",
+      "state": "California",
+      "stateCode": "CA",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 37.76238499999999,
+      "lng": -122.414601
+    },
+    "logo": "https://logo.clearbit.com/stripe.com",
+    "facebook": {
+      "handle": "stripepayments"
+    },
+    "linkedin": {
+      "handle": "company/stripe"
+    },
+    "twitter": {
+      "handle": "stripe",
+      "id": "102812444",
+      "bio": "The world's largest developer-oriented commerce company, helping small and large companies accept web and mobile payments. Status updates at @stripestatus.",
+      "followers": 77798,
+      "following": 334,
+      "location": "San Francisco, CA",
+      "site": "https://t.co/dYVsTPj9Mn",
+      "avatar": "https://pbs.twimg.com/profile_images/778378996580888577/MFKh-pNn_normal.jpg"
+    },
+    "crunchbase": {
+      "handle": "organization/stripe"
+    },
+    "emailProvider": false,
+    "type": "private",
+    "ticker": null,
+    "phone": null,
+    "metrics": {
+      "alexaUsRank": 1804,
+      "alexaGlobalRank": 2624,
+      "googleRank": null,
+      "employees": 448,
+      "employeesRange": "251-1000",
+      "marketCap": null,
+      "raised": 290000000,
+      "annualRevenue": null
+    },
+    "indexedAt": "2016-10-27T11:17:41.221Z",
+    "tech": [
+      "double_click",
+      "google_adwords",
+      "adroll",
+      "twitter_button",
+      "typekit_by_adobe",
+      "drip",
+      "lead_dyno",
+      "nginx",
+      "stripe",
+      "aws_route_53",
+      "vimeo",
+      "google_apps"
+    ]
+  }
+}

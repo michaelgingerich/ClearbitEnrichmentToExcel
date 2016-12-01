@@ -1,0 +1,171 @@
+{{
+  "person": {
+    "id": "247193a9-33a1-4cc8-a997-9af62dd8da61",
+    "name": {
+      "fullName": "Alex MacCaw",
+      "givenName": "Alex",
+      "familyName": "MacCaw"
+    },
+    "email": "alex@alexmaccaw.com",
+    "gender": null,
+    "location": "San Francisco, CA, US",
+    "timeZone": "America/Los_Angeles",
+    "utcOffset": -7,
+    "geo": {
+      "city": "San Francisco",
+      "state": "California",
+      "stateCode": "CA",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 37.7749295,
+      "lng": -122.4194155
+    },
+    "bio": "@clearbit co-founder. Tea, Earl Grey, hot.",
+    "site": "http://alexmaccaw.com",
+    "avatar": "https://d1ts43dypk8bqh.cloudfront.net/v1/avatars/247193a9-33a1-4cc8-a997-9af62dd8da61",
+    "employment": {
+      "domain": "alexmaccaw.com",
+      "name": "Alex MacCaw",
+      "title": null,
+      "role": "founder",
+      "seniority": "executive"
+    },
+    "facebook": {
+      "handle": "amaccaw"
+    },
+    "github": {
+      "handle": "maccman",
+      "id": 2142,
+      "avatar": "https://avatars.githubusercontent.com/u/2142?v=3",
+      "company": "Clearbit",
+      "blog": "http://alexmaccaw.com",
+      "followers": 3350,
+      "following": 99
+    },
+    "twitter": {
+      "handle": "maccaw",
+      "id": 2006261,
+      "bio": "@clearbit co-founder. Tea, Earl Grey, hot.",
+      "followers": 17822,
+      "following": 2105,
+      "statuses": 9488,
+      "favorites": 5063,
+      "location": "San Francisco",
+      "site": "http://alexmaccaw.com",
+      "avatar": "https://pbs.twimg.com/profile_images/658880981017882629/nlXSOJnc.jpg"
+    },
+    "linkedin": {
+      "handle": "pub/alex-maccaw/78/929/ab5"
+    },
+    "googleplus": {
+      "handle": null
+    },
+    "aboutme": {
+      "handle": "maccaw",
+      "bio": "Software engineer & traveller. Walker, skier, reader, tennis player, breather, ginger beer drinker, scooterer & generally enjoying things :)",
+      "avatar": null
+    },
+    "gravatar": {
+      "handle": "maccman",
+      "urls": [
+        {
+          "value": "http://alexmaccaw.com",
+          "title": "Personal Website"
+        }
+      ],
+      "avatar": "http://2.gravatar.com/avatar/994909da96d3afaf4daaf54973914b64",
+      "avatars": [
+        {
+          "url": "http://2.gravatar.com/avatar/994909da96d3afaf4daaf54973914b64",
+          "type": "thumbnail"
+        }
+      ]
+    },
+    "fuzzy": false,
+    "emailProvider": false
+  },
+  "company": {
+    "id": "41825e9a-8390-458c-a0e3-57fca7317392",
+    "name": "Alex MacCaw",
+    "legalName": null,
+    "domain": "alexmaccaw.com",
+    "domainAliases": [],
+    "url": "http://alexmaccaw.com",
+    "site": {
+      "url": "http://alexmaccaw.com",
+      "title": "Alex MacCaw",
+      "h1": "Alex MacCaw",
+      "metaDescription": "JavaScript programmer, O'Reilly author, open source hacker",
+      "metaAuthor": "Alex MacCaw",
+      "phoneNumbers": [],
+      "emailAddresses": []
+    },
+    "category": {
+      "sector": "Information Technology",
+      "industryGroup": "Software & Services",
+      "industry": "Internet Software & Services",
+      "subIndustry": "Internet Software & Services"
+    },
+    "tags": [
+      "E-commerce",
+      "B2C",
+      "Information Technology & Services",
+      "Technology"
+    ],
+    "description": "JavaScript programmer, O'Reilly author, open source hacker",
+    "foundedYear": null,
+    "location": null,
+    "timeZone": null,
+    "utcOffset": null,
+    "geo": {
+      "streetNumber": null,
+      "streetName": null,
+      "subPremise": null,
+      "city": null,
+      "postalCode": null,
+      "state": null,
+      "stateCode": null,
+      "country": null,
+      "countryCode": null,
+      "lat": null,
+      "lng": null
+    },
+    "logo": "https://logo.clearbit.com/alexmaccaw.com",
+    "facebook": {
+      "handle": null
+    },
+    "linkedin": {
+      "handle": null
+    },
+    "twitter": {
+      "handle": "maccaw",
+      "id": "2006261",
+      "bio": "@clearbit co-founder. Tea, Earl Grey, hot.",
+      "followers": 17822,
+      "following": 2105,
+      "location": "San Francisco",
+      "site": "https://t.co/lBoBBpfLBK",
+      "avatar": "https://pbs.twimg.com/profile_images/658880981017882629/nlXSOJnc_normal.jpg"
+    },
+    "crunchbase": {
+      "handle": null
+    },
+    "emailProvider": false,
+    "type": "private",
+    "ticker": null,
+    "phone": null,
+    "metrics": {
+      "alexaUsRank": null,
+      "alexaGlobalRank": 521570,
+      "googleRank": 5,
+      "employees": null,
+      "employeesRange": null,
+      "marketCap": null,
+      "raised": null,
+      "annualRevenue": null
+    },
+    "tech": [
+      "mailgun"
+    ]
+  }
+}}

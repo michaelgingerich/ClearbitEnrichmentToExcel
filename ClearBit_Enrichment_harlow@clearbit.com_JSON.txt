@@ -1,0 +1,194 @@
+{
+  "person": {
+    "id": "a2be91c0-b6a0-4615-bfd8-a9e0a018e390",
+    "name": {
+      "fullName": "Harlow Ward",
+      "givenName": "Harlow",
+      "familyName": "Ward"
+    },
+    "email": "harlow@clearbit.com",
+    "gender": "male",
+    "location": "San Francisco, CA, US",
+    "timeZone": "America/Los_Angeles",
+    "utcOffset": -8,
+    "geo": {
+      "city": "San Francisco",
+      "state": "California",
+      "stateCode": "CA",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 37.7749295,
+      "lng": -122.4194155
+    },
+    "bio": "Developer @Clearbit by way of @HotelTonight and @thoughtbot. I like fast APIs, streaming event data, and of course my lovely @tayloresque.",
+    "site": "https://github.com/harlow",
+    "avatar": "https://d1ts43dypk8bqh.cloudfront.net/v1/avatars/a2be91c0-b6a0-4615-bfd8-a9e0a018e390",
+    "employment": {
+      "domain": "clearbit.com",
+      "name": "Clearbit",
+      "title": "Developer and Co-Founder",
+      "role": "engineering",
+      "seniority": "executive"
+    },
+    "facebook": {
+      "handle": null
+    },
+    "github": {
+      "handle": "harlow",
+      "id": 739782,
+      "avatar": "https://avatars.githubusercontent.com/u/739782?v=3",
+      "company": "Clearbit",
+      "blog": "http://hward.com",
+      "followers": 65,
+      "following": 4
+    },
+    "twitter": {
+      "handle": "harlow_ward",
+      "id": 192721786,
+      "bio": "Developer @Clearbit by way of @HotelTonight and @thoughtbot. I like fast APIs, streaming event data, and of course my lovely @tayloresque.",
+      "followers": 601,
+      "following": 262,
+      "statuses": 461,
+      "favorites": 851,
+      "location": "San Francisco, CA",
+      "site": "https://github.com/harlow",
+      "avatar": "https://pbs.twimg.com/profile_images/758780748870541313/ossNObOE.jpg"
+    },
+    "linkedin": {
+      "handle": "in/harlowward"
+    },
+    "googleplus": {
+      "handle": null
+    },
+    "aboutme": {
+      "handle": null,
+      "bio": null,
+      "avatar": null
+    },
+    "gravatar": {
+      "handle": "hrwiv",
+      "urls": [
+
+      ],
+      "avatar": "http://0.gravatar.com/avatar/036299c03c161f673ddef75721835a04",
+      "avatars": [
+        {
+          "url": "http://0.gravatar.com/avatar/036299c03c161f673ddef75721835a04",
+          "type": "thumbnail"
+        }
+      ]
+    },
+    "fuzzy": false,
+    "emailProvider": false,
+    "indexedAt": "2016-11-10T23:17:41.697Z"
+  },
+  "company": {
+    "id": "a114c279-67aa-4faa-beaf-64246a856450",
+    "name": "Clearbit",
+    "legalName": null,
+    "domain": "clearbit.com",
+    "domainAliases": [
+      "clearbit.co",
+      "apihub.co",
+      "mailmatch.io"
+    ],
+    "url": "http://clearbit.com",
+    "site": {
+      "url": "http://clearbit.com",
+      "title": "Clearbit",
+      "h1": "Gain insights into your customers",
+      "metaDescription": "Clearbit provides powerful products and data APIs to help your business grow. Contact enrichment, lead generation, financial compliance, and more...",
+      "metaAuthor": null,
+      "phoneNumbers": [
+        "+1 252-227-7014"
+      ],
+      "emailAddresses": [
+        "ALEX@CLEARBIT.CO",
+        "team@clearbit.com",
+        "support@clearbit.com",
+        "alex@clearbit.com",
+        "harlow@clearbit.com",
+        "sales@clearbit.com"
+      ]
+    },
+    "category": {
+      "sector": "Information Technology",
+      "industryGroup": "Software & Services",
+      "industry": "Internet Software & Services",
+      "subIndustry": "Internet Software & Services"
+    },
+    "tags": [
+      "SAAS",
+      "B2B",
+      "Information Technology & Services",
+      "Technology"
+    ],
+    "description": "Clearbit provides powerful products and data APIs to help your business grow. Contact enrichment, lead generation, financial compliance, and more...",
+    "foundedYear": null,
+    "location": "3030 16th St, San Francisco, CA 94103, USA",
+    "timeZone": "America/Los_Angeles",
+    "utcOffset": -8,
+    "geo": {
+      "streetNumber": "3030",
+      "streetName": "16th Street",
+      "subPremise": null,
+      "city": "San Francisco",
+      "postalCode": "94103",
+      "state": "California",
+      "stateCode": "CA",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 37.7652736,
+      "lng": -122.4203596
+    },
+    "logo": "https://logo.clearbit.com/clearbit.com",
+    "facebook": {
+      "handle": null
+    },
+    "linkedin": {
+      "handle": "company/clearbit"
+    },
+    "twitter": {
+      "handle": "clearbit",
+      "id": "2857311332",
+      "bio": "Business Intelligence APIs",
+      "followers": 969,
+      "following": 32,
+      "location": "San Francisco",
+      "site": "https://t.co/r06mCbdPuR",
+      "avatar": "https://pbs.twimg.com/profile_images/557204249411457024/B0Nb_vTU_normal.png"
+    },
+    "crunchbase": {
+      "handle": "organization/clearbit"
+    },
+    "emailProvider": false,
+    "type": "private",
+    "ticker": null,
+    "phone": null,
+    "metrics": {
+      "alexaUsRank": 30768,
+      "alexaGlobalRank": 48901,
+      "googleRank": null,
+      "employees": 11,
+      "employeesRange": "11-50",
+      "marketCap": null,
+      "raised": 3000000,
+      "annualRevenue": null
+    },
+    "indexedAt": "2016-11-09T03:25:11.912Z",
+    "tech": [
+      "google_analytics",
+      "mixpanel",
+      "adroll",
+      "segment",
+      "typekit_by_adobe",
+      "perfect_audience",
+      "aws_ec2",
+      "google_apps",
+      "customer_io",
+      "aws_route_53",
+      "mixpanel",
+      "mailgun"
+    ]
+  }
+}
