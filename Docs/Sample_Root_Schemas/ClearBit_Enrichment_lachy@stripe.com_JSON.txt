@@ -1,4 +1,4 @@
-{
+{{
   "person": {
     "id": "5c180767-8095-495e-928b-677895ba1cfc",
     "name": {
@@ -10,7 +10,7 @@
     "gender": "male",
     "location": "San Francisco, CA, US",
     "timeZone": "America/Los_Angeles",
-    "utcOffset": -8,
+    "utcOffset": -7,
     "geo": {
       "city": "San Francisco",
       "state": "California",
@@ -26,9 +26,9 @@
     "employment": {
       "domain": "stripe.com",
       "name": "Stripe",
-      "title": "Growth",
-      "role": "sales",
-      "seniority": null
+      "title": "Cards Lead",
+      "role": null,
+      "seniority": "manager"
     },
     "facebook": {
       "handle": null
@@ -46,10 +46,10 @@
       "handle": "lachygroom",
       "id": 14647871,
       "bio": "I work on International @stripe",
-      "followers": 2042,
-      "following": 320,
-      "statuses": 13119,
-      "favorites": 1170,
+      "followers": 2104,
+      "following": 326,
+      "statuses": 13178,
+      "favorites": 1552,
       "location": "San Francisco",
       "site": "http://lachygroom.com",
       "avatar": "https://pbs.twimg.com/profile_images/2823877912/383da5c4764bfe64442738a03171eeaa.jpeg"
@@ -67,9 +67,7 @@
     },
     "gravatar": {
       "handle": "lachy2012",
-      "urls": [
-
-      ],
+      "urls": [],
       "avatar": "http://1.gravatar.com/avatar/b683590be3a1236b315614d623349454",
       "avatars": [
         {
@@ -78,81 +76,71 @@
         }
       ]
     },
-    "fuzzy": true,
+    "fuzzy": false,
     "emailProvider": false,
-    "indexedAt": "2016-11-18T04:40:53.819Z"
+    "indexedAt": "2017-04-20T12:51:24.213Z"
   },
   "company": {
     "id": "54fa90d8-7ba7-4b6d-b5ec-82ee3e184166",
     "name": "Stripe",
-    "legalName": "Stripe Inc",
+    "legalName": "Stripe, Inc",
     "domain": "stripe.com",
     "domainAliases": [
       "stripe.io",
       "stripe.co.nz",
       "stripe.uk",
       "stripe.ie",
-      "stripe.cm"
+      "stripe.cm",
+      "stripe.om",
+      "stripe.co.uk",
+      "stripe.cl"
     ],
-    "url": "https://stripe.com",
     "site": {
-      "url": "http://stripe.com",
       "title": "Stripe",
       "h1": "Stripe",
       "metaDescription": "Stripe is a suite of APIs that powers commerce for businesses of all sizes.",
       "metaAuthor": null,
-      "phoneNumbers": [
-        "+1 415-697-2918",
-        "+1 800-451-5817"
-      ],
+      "phoneNumbers": [],
       "emailAddresses": [
         "dns@stripe.com",
-        "byot@stripe.com",
-        "krithika.muthukumar@stripe.com",
-        "ach@stripe.com",
-        "joe.cruttwell@stripe.com",
-        "michelle.bu@stripe.com",
-        "jack.flintermann@stripe.com",
-        "connect@stripe.com",
+        "info@stripe.com",
         "subscriptions@stripe.com",
-        "relay@stripe.com",
-        "connect+pricing@stripe.com"
+        "privacy@stripe.com"
       ]
     },
     "category": {
-      "sector": "Financials",
-      "industryGroup": "Diversified Financials",
-      "industry": "Diversified Financial Services",
-      "subIndustry": "Payments"
+      "sector": "Information Technology",
+      "industryGroup": "Software & Services",
+      "industry": "Internet Software & Services",
+      "subIndustry": "Internet Software & Services"
     },
     "tags": [
       "SAAS",
       "B2B",
-      "Payments",
-      "Finance",
       "Software"
     ],
     "description": "Stripe is a suite of APIs that powers commerce for businesses of all sizes.",
     "foundedYear": 2011,
-    "location": "3180 18th St #100, San Francisco, CA 94110, USA",
+    "location": "San Francisco, CA, USA",
     "timeZone": "America/Los_Angeles",
-    "utcOffset": -8,
+    "utcOffset": -7,
     "geo": {
-      "streetNumber": "3180",
-      "streetName": "18th Street",
-      "subPremise": "100",
+      "streetNumber": null,
+      "streetName": null,
+      "subPremise": null,
       "city": "San Francisco",
-      "postalCode": "94110",
+      "postalCode": null,
       "state": "California",
       "stateCode": "CA",
       "country": "United States",
       "countryCode": "US",
-      "lat": 37.76238499999999,
-      "lng": -122.414601
+      "lat": 37.7749295,
+      "lng": -122.4194155
     },
     "logo": "https://logo.clearbit.com/stripe.com",
     "facebook": {
-      "handle": "stripepayments"
+      "handle": "stripepayments",
+      "likes": null
     },
     "linkedin": {
       "handle": "company/stripe"
@@ -161,8 +149,8 @@
       "handle": "stripe",
       "id": "102812444",
       "bio": "The world's largest developer-oriented commerce company, helping small and large companies accept web and mobile payments. Status updates at @stripestatus.",
-      "followers": 77798,
-      "following": 334,
+      "followers": 86645,
+      "following": 401,
       "location": "San Francisco, CA",
       "site": "https://t.co/dYVsTPj9Mn",
       "avatar": "https://pbs.twimg.com/profile_images/778378996580888577/MFKh-pNn_normal.jpg"
@@ -175,29 +163,38 @@
     "ticker": null,
     "phone": null,
     "metrics": {
-      "alexaUsRank": 1804,
-      "alexaGlobalRank": 2624,
+      "alexaUsRank": 993,
+      "alexaGlobalRank": 2508,
       "googleRank": null,
-      "employees": 448,
+      "employees": 677,
       "employeesRange": "251-1000",
       "marketCap": null,
-      "raised": 290000000,
+      "raised": 440000000,
       "annualRevenue": null
     },
-    "indexedAt": "2016-10-27T11:17:41.221Z",
+    "indexedAt": "2017-03-30T05:41:59.412Z",
     "tech": [
-      "double_click",
-      "google_adwords",
-      "adroll",
-      "twitter_button",
-      "typekit_by_adobe",
-      "drip",
-      "lead_dyno",
-      "nginx",
+      "mixpanel",
+      "google_analytics",
       "stripe",
+      "google_apps",
+      "nginx",
       "aws_route_53",
-      "vimeo",
-      "google_apps"
+      "ruby_on_rails",
+      "twitter_button"
+    ],
+    "similarDomains": [
+      "airbnbopen.com",
+      "authorize.net",
+      "braintreepayments.com",
+      "instacartshoppers.com",
+      "mailchimp.com",
+      "paypal.com",
+      "slack.com",
+      "squareup.com",
+      "waveapps.com",
+      "wepay.com",
+      "zuora.com"
     ]
   }
-}
+}}

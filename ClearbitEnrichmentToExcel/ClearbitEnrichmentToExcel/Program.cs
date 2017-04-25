@@ -106,10 +106,6 @@ namespace ClearbitEnrichmentToExcel
                         {
                             subSchemaHeaders[subSchemaIndex].Insert(headerCol, property.Name);
                         }
-                        if (!subSchemaHeaders[subSchemaIndex][headerCol].Equals(property.Name))
-                        {
-                            subSchemaHeaders[subSchemaIndex].Insert(headerCol, property.Name);
-                        }
                         headerCol++;
 
                         if (property.Value.HasValues)
@@ -128,7 +124,6 @@ namespace ClearbitEnrichmentToExcel
                                 {
                                     try
                                     {
-                                        //Check for String.Empty instead.
                                         if (subSchemaHeaders[subSchemaIndex][k].Equals(((JProperty)properties[nextProperty]).Name))
                                         {
                                             headerCol = k;
@@ -146,7 +141,7 @@ namespace ClearbitEnrichmentToExcel
                                 {
                                     for (int l = headerCol; l < j; l++)
                                     {
-                                        subSchemaHeaders[subSchemaIndex].Insert(l, String.Empty);
+                                        subSchemaHeaders[subSchemaIndex].Insert(l, property.Name);
                                     }
                                     headerCol = j;
                                 }
@@ -162,11 +157,7 @@ namespace ClearbitEnrichmentToExcel
                                         //Insert child-instance name
                                         if (!(subSchemaHeaders[subSchemaIndex].Count > headerCol))
                                         {
-                                            subSchemaHeaders[subSchemaIndex].Insert(headerCol, childInstance.Name);
-                                        }
-                                        if (!subSchemaHeaders[subSchemaIndex][headerCol].Equals(childInstance.Name))
-                                        {
-                                            subSchemaHeaders[subSchemaIndex].Insert(headerCol, childInstance.Name);
+                                            subSchemaHeaders[subSchemaIndex].Insert(headerCol, property.Name + "." + childInstance.Name);
                                         }
                                         headerCol++;
                                         foreach (JToken arrayChildInstanceElement in childInstance.Children().ToList())
@@ -180,8 +171,7 @@ namespace ClearbitEnrichmentToExcel
                                                 int nextChildInstance = i + 1;
                                                 for (int j = headerCol; j < subSchemaHeaders[subSchemaIndex].Count; j++)
                                                 {
-                                                    //Check for String.Empty
-                                                    if (subSchemaHeaders[subSchemaIndex][j].Equals(((JProperty)childInstances[nextChildInstance]).Name))
+                                                    if (subSchemaHeaders[subSchemaIndex][j].Equals(property.Name + "." + ((JProperty)childInstances[nextChildInstance]).Name))
                                                     {
                                                         headerCol = j;
                                                         break;
@@ -204,7 +194,7 @@ namespace ClearbitEnrichmentToExcel
                                                         //Get the headerCol that occurs after this JArray in subSchemaHeaders[subSchemaIndex].
                                                         for (; k < subSchemaHeaders[subSchemaIndex].Count; k++)
                                                         {
-                                                            if (subSchemaHeaders[subSchemaIndex][k].Equals(((JProperty)childInstances[nextChildInstance]).Name))
+                                                            if (subSchemaHeaders[subSchemaIndex][k].Equals(property.Name + "." + ((JProperty)childInstances[nextChildInstance]).Name))
                                                             {
                                                                 headerCol = k;
                                                                 break;
@@ -230,7 +220,7 @@ namespace ClearbitEnrichmentToExcel
                                                     {
                                                         for (int l = headerCol; l < j; l++)
                                                         {
-                                                            subSchemaHeaders[subSchemaIndex].Insert(l, String.Empty);
+                                                            subSchemaHeaders[subSchemaIndex].Insert(l, property.Name + "." + childInstance.Name);
                                                         }
                                                         headerCol = j;
                                                     }
@@ -242,11 +232,11 @@ namespace ClearbitEnrichmentToExcel
                                                         //Insert element name.
                                                         if (!(subSchemaHeaders[subSchemaIndex].Count > headerCol))
                                                         {
-                                                            subSchemaHeaders[subSchemaIndex].Insert(headerCol, childChildInstanceArrayElementField.Name);
+                                                            subSchemaHeaders[subSchemaIndex].Insert(headerCol, property.Name + "." + childInstance.Name + "." + childChildInstanceArrayElementField.Name);
                                                         }
-                                                        if (!subSchemaHeaders[subSchemaIndex][headerCol].Equals(childChildInstanceArrayElementField.Name))
+                                                        if (!subSchemaHeaders[subSchemaIndex][headerCol].Equals(property.Name + "." + childInstance.Name + "." + childChildInstanceArrayElementField.Name))
                                                         {
-                                                            subSchemaHeaders[subSchemaIndex].Insert(headerCol, childChildInstanceArrayElementField.Name);
+                                                            subSchemaHeaders[subSchemaIndex].Insert(headerCol, property.Name + "." + childInstance.Name + "." + childChildInstanceArrayElementField.Name);
                                                         }
                                                         headerCol++;
                                                     }
@@ -259,11 +249,7 @@ namespace ClearbitEnrichmentToExcel
                                         //Insert child-instance name
                                         if (!(subSchemaHeaders[subSchemaIndex].Count > headerCol))
                                         {
-                                            subSchemaHeaders[subSchemaIndex].Insert(headerCol, childInstance.Name);
-                                        }
-                                        if (!subSchemaHeaders[subSchemaIndex][headerCol].Equals(childInstance.Name))
-                                        {
-                                            subSchemaHeaders[subSchemaIndex].Insert(headerCol, childInstance.Name);
+                                            subSchemaHeaders[subSchemaIndex].Insert(headerCol, property.Name + "." + childInstance.Name);
                                         }
                                         headerCol++;
                                     }
@@ -284,7 +270,6 @@ namespace ClearbitEnrichmentToExcel
                                 {
                                     try
                                     {
-                                        //Check for String.Empty instead.
                                         if (subSchemaHeaders[subSchemaIndex][k].Equals(((JProperty)properties[nextProperty]).Name))
                                         {
                                             headerCol = k;
@@ -403,7 +388,7 @@ namespace ClearbitEnrichmentToExcel
                                                 int nextChildInstance = i + 1;
                                                 for (int j = dataCol; j < subSchemaHeaders[subSchemaIndex].Count; j++)
                                                 {
-                                                    if (subSchemaHeaders[subSchemaIndex][j].Equals(((JProperty)childInstances[nextChildInstance]).Name))
+                                                    if (subSchemaHeaders[subSchemaIndex][j].Equals(property.Name + "." + ((JProperty)childInstances[nextChildInstance]).Name))
                                                     {
                                                         dataCol = j;
                                                         break;
@@ -431,7 +416,7 @@ namespace ClearbitEnrichmentToExcel
                                                         //Get the headerCol that occurs after this JArray in data.
                                                         for (; k < data.Table.Columns.Count; k++)
                                                         {
-                                                            if (subSchemaHeaders[subSchemaIndex][k].Equals(((JProperty)childInstances[nextChildInstance]).Name))
+                                                            if (subSchemaHeaders[subSchemaIndex][k].Equals(property.Name + "." + ((JProperty)childInstances[nextChildInstance]).Name))
                                                             {
                                                                 break;
                                                             }
@@ -514,7 +499,6 @@ namespace ClearbitEnrichmentToExcel
                                             {
                                                 try
                                                 {
-                                                    //Check for String.Empty instead.
                                                     if (data[k].Equals(((JProperty)properties[nextProperty]).Name))
                                                     {
                                                         dataCol = k;
@@ -554,7 +538,6 @@ namespace ClearbitEnrichmentToExcel
                                 {
                                     try
                                     {
-                                        //Check for String.Empty instead.
                                         if (subSchemaHeaders[subSchemaIndex][k].Equals(((JProperty)properties[nextProperty]).Name))
                                         {
                                             break;
