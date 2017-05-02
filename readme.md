@@ -1,0 +1,1 @@
+This application uses an algorithm that I authored to export JSON from the Clearbit Enrichment API into Excel spreadsheets in order to demonstrate the use of a RESTful web service.
